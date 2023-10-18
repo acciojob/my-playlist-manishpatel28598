@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+.bgcolor{
+	background-color: rgb(204, 204, 204)
+}
+.playlist{
+	text-align: center
+}
+.songs{
+	background-color: white;
+	width: 90%;
+	border: 2px solid black;
+	border-radius: 10px;
+	
+}
+.player{
+	text-align: center
+}
+.audioplayer{
+	text-align: center
+}
+
+.allplayer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
