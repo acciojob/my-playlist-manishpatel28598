@@ -1,26 +1,45 @@
 /*  your css code here. If applicable */
-.bgcolor{
-	background-color: rgb(204, 204, 204)
+body{
+	background-color: rgb(204, 204, 204);
+	text-align: center;
+	font-family: Arial, sans-serif;
 }
-.playlist{
+/*style headings  */
+h1,h2{
 	text-align: center
 }
-.songs{
-	background-color: white;
-	width: 90%;
-	border: 2px solid black;
+.vid_player{
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
 	border-radius: 10px;
-	
+	border-style: solid;
+	margin: 10px;
 }
-.player{
-	text-align: center
+/*style the songs unordered list*/
+ul{
+	background-color: rgb(255, 255, 255);
+	border-radius: 10px;
+	border-style: solid;
+	list-style-type: none;
+	text-style-type: none;
+	text-align: left;
+	padding:5px;
+	margin: 10px;
 }
-.audioplayer{
-	text-align: center
+li{
+	margin: 5px;
 }
-
-.allplayer{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+p{
+	text-align: left;
+	padding:10px
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+audio{
+	width:95%;
+}
+video{
+	width:95%;
 }
