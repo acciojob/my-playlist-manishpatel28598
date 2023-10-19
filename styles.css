@@ -9,14 +9,14 @@ h1,h2{
 	text-align: center;
 	margin: 5px 10px 5px 10px;
 }
-.vid_player{
+.player_one{
 	background-color: white;
 	padding: 10px;
 	border-radius: 10px;
 	border-style: solid;
 	margin: 10px 10px 10px 10px;
 }
-.aud_player{
+.player_two{
 	background-color: white;
 	padding: 0px;
 	border-radius: 10px;
